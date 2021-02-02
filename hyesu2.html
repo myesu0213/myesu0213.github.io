@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kimhyesu Shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://kit.fontawesome.com/be0f0bc2d3.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+  </head>
+  
+
+
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="">Grace Keigh</a>
+      </div>
+
+
+      <ul class="navbar__Menu">
+            <li><a href="">NEW5%</a></li>
+            <li><a href="">BEST50</a></li>
+            <li><a href="">OUTER</a></li>
+            <li><a href="">TOP</a></li>
+            <li><a href="">PANTS</a></li>
+            <li><a href="">DRESS</a></li>
+            <li><a href="">ACC</a></li>
+            <li><a href="">BAG&amp;SHOES</a></li>
+          </ul>
+      </div>
+
+      <ul class="navbar__links">
+        <li><a href="">LOGIN</a></li>
+        <li><a href="">JOIN</a></li>
+        <li><a href="">CART</a></li>
+        <li><a href="">MYPAGE</a></li>
+        <li><a href="">Q&amp;A</a></li>
+      </ul>
+
+       <button href="" class="navbar__toogleBtn">
+        <i class="fas fa-bars"></i>
+       </button> <!--햄버거-->
+    </nav> 
+
+
+    <section class="title">
+      <h1>Grace Keigh</h1>
+    </section>
+    
+
+    <section class="img_container" id="abc">
+      <h2>Today's New Item &gt;</h2>
+      <div class="container">
+        <div class="item item1"><img src="images/hyesu01.jpg" id="img1" /></div>
+        <div class="item item2"><img src="images/hyesu12.jpg" id="img2" /></div>
+        <div class="item item3"><img src="images/hyesu11.jpg" id="img3" /></div>
+        <div class="item item4"><img src="images/hyesu9.jpg" id="img4" /></div>
+        <div class="item item5"><img src="images/hyesu04.jpg" id="img5" /></div>
+        <div class="item item6"><img src="images/hyesu6.jpg" id="img6" /></div>
+        <div class="item item7"><img src="images/hyesu5.jpg" id="img7" /></div>
+        <div class="item item8"><img src="images/hyesu8.jpg" id="img8" /></div>
+        <div class="item item9"><img src="images/hyesu10.jpg" id="img9" /></div>
+        <div class="item item10">
+          <img src="images/hyesu07.jpg" id="img10" />
+        </div>
+      </div>
+    </section>
+
+    <section class="test">
+      <h2>Recent Hot Item &gt;</h2>
+    <div>
+      <div class="swiper-container">
+      <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/hyesu12.jpg" id="ai1"></div>
+      <div class="swiper-slide"><img src="images/hyesu01.jpg" id="ai2"></div>
+      <div class="swiper-slide"><img src="images/hyesu11.jpg" id="ai3"></div>
+      <div class="swiper-slide"><img src="images/hyesu04.jpg" id="ai4"></div>
+      <div class="swiper-slide"><img src="images/hyesu5.jpg" id="ai5"></div>
+      <div class="swiper-slide"><img src="images/hyesu6.jpg" id="ai6"></div>
+      <div class="swiper-slide"><img src="images/hyesu07.jpg"id="ai7"></div>
+      <div class="swiper-slide"><img src="images/hyesu8.jpg" id="ai8"></div>
+      <div class="swiper-slide"><img src="images/hyesu9.jpg" id="ai9"></div>
+      <div class="swiper-slide"><img src="images/hyesu10.jpg" id="ai10"></div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop:true,
+    });
+    </script>
+
+    <div id="footer">
+      <div class="container2">
+          <div class="footer">
+            <ul>
+              <li><a href="#">사이트 도움말</a></li>
+              <li><a href="#">사이트 이용약관</a></li>
+              <li><a href="#">사이트 운영규칙</a></li>
+              <li><a href="#">개인정보취급방침</a></li>
+              <li><a href="#">Tel:010-1234-5678</a></li>
+              <li><a href="#">대표자 <strong>김혜수</strong></a></li>
+            
+            </ul>
+            <address>
+              Copyright tkr020683@gmail.com All Right Reserved
+            </address>
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>
